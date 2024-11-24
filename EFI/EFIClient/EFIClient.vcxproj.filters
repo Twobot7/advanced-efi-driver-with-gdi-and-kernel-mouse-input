@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{8A23B1C0-5F7A-4E89-9C1D-B32DAF8E1123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="overlay">
+      <UniqueIdentifier>{9B45C2D1-6E8B-4F9A-BD2E-C43EAF9E2234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="security">
+      <UniqueIdentifier>{7C56D3E2-8F9C-4A1B-AE3F-D4E5BF9E3345}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="EFIClient.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\Driver.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\KeyboardDriver.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\MouseDriver.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\DriverEntry.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="overlay\OverlaySystem.cpp">
+      <Filter>overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="security\DriverCloaking.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="security\MemoryDisguise.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="security\SecurityImplementation.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+    <ClCompile Include="security\ThreadManager.cpp">
+      <Filter>security</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Driver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\Driver.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputBuffer.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\KeyboardDriver.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\MouseDriver.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\SecurityValidator.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay\OverlaySystem.h">
+      <Filter>overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="security\AdvancedMemoryProtection.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\CryptoManager.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\DriverCloaking.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\HypervisorSecurity.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\MemoryDisguise.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\MemoryProtector.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\SecurityCore.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\StealthDriver.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\SystemCallHook.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\SystemHooks.h">
+      <Filter>security</Filter>
+    </ClInclude>
+    <ClInclude Include="security\ThreadManager.h">
+      <Filter>security</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
